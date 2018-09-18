@@ -1,0 +1,45 @@
+body {
+	background-color: #101C4B;
+}
+
+p, a, h1, h2 ,h3 ,h4, h5, li{
+	color:white;
+}
+
+.bg-dark{
+	background-color: black!important;
+}
+
+.navbar .container-fluid>.navbar-header {
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  float: left;
+  margin: 5px;
+}
+.nav>li {
+  float: left;
+}
+
+.jumbotron:first-of-type{
+
+	margin-top: 95px;
+
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+hr {
+
+	background-color: white;
+}
+
+ .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }

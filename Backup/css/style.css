@@ -1,0 +1,104 @@
+A{
+	color : #A8D5CC;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	text-decoration:none;
+	
+	
+}
+
+A:hover{
+	color : #336699;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	text-decoration:underline;
+	
+	
+}
+
+A:visited{ 
+	
+	color : #FF9900;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	text-decoration:none;
+
+}
+
+A:active{
+	color : #FF9900;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	text-decoration:underline
+	}
+
+/*a:focus { font-weight:bold; color:#00E000; text-decoration:underline }*/
+
+
+
+.text {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	color : #FFFFFF;
+	text-align : justify;
+}
+
+.bold {
+	font-weight : bolder; 
+}
+
+.error {
+	font-size : 12px;
+	color : red;
+}
+
+.scroll {
+	scrollbar-color:#ffffff;
+  	scrollbar-3dlight-color:#101c4b;
+  	scrollbar-arrow-color:#FF9900;
+  	scrollbar-darkshadow-color:#101c4b;
+  	scrollbar-face-color:#40496F;
+  	scrollbar-highlight-color:#ffffff;
+  	scrollbar-shadow-color:#FFFFFF;
+  	scrollbar-track-color:#40496F;
+  	}
+  	
+.kopf {
+	background-color:#40496f;
+	font-weight : bolder;
+	}
+	
+.text_3 { font-family: Verdana, Geneva, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; font-size: 13;}
+.text_3al { font-family: Verdana, Geneva, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; font-size: 13; text-align : left; }
+.text_3b {font-family: Verdana, Geneva, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; font-size: 13; font-weight : 800;}
+.text_3ab { font-family: Verdana, Geneva, Arial, Helvetica, Geneva, Swiss, SunSans-Regular; font-size: 13; line-height:13.5pt;}
+
+.border {
+	border-width:1px;
+	border-color:#FFFFFF;
+	border-style:dashed;
+	padding:5px;
+}
+/* Das Kontaktformular */
+form {
+  width: 370px; /* Breite des Formulars */
+  padding: 20px;
+  border: 1px solid #8c8c8c;
+}
+label { /* Beschriftung auf eigener Zeile */
+  display: block;
+  cursor: pointer; /* Mauszeiger wird zur Hand */
+}
+input#absender,
+textarea {
+  width: 300px;
+  border: 1px solid #8c8c8c;
+  margin-bottom: 1em;
+}
+textarea {
+  height: 7em;
+}
+input:focus,
+textarea:focus {
+  
+}
